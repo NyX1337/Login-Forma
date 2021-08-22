@@ -130,6 +130,9 @@ form .form-inner input[type='submit'],
   font-weight: 700;
 }
 
-form .error {
+form .form-inner .error {
+  text-decoration: underline;
+  text-decoration-color: red;
   margin-bottom: 20px;
+  text-decoration-thickness: 5px;
 }
